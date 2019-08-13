@@ -1,0 +1,60 @@
+body{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 15%;
+    background-color: red;
+}
+
+.display-container{
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    width: 80%;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 2rem;
+    padding: 1%;
+    border-radius: 20%;
+}
+img{
+    margin: 1%;
+}
+button{
+    width: 30%;
+    background-color: teal;
+    color: white;
+    border-radius: 10%;
+    margin: 1%;
+    font-size: 1.5rem;
+}
+
+.ops{
+    background-color: blueviolet;
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.specials-numbers-container{
+    width: 50%;
+}
+.operators-container{
+    width: 35%;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.special{
+    background-color: cornflowerblue;
+}
